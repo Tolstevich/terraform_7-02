@@ -21,6 +21,12 @@ terraform {
   }
 }
 
+resource "a" "b" {
+  
+}
+
 provider "docker" {
   host = "unix:///var/run/docker.sock"
 }
+
+
